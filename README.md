@@ -1,28 +1,28 @@
-# Informačný systém poistených
+# Insurance Information System
 
-Tento repozitár obsahuje implementáciu informačného systému pre správu poistených osôb. Systém je napísaný v jazyku Python a umožňuje základné operácie ako pridávanie, vyhľadávanie, úpravu a odstraňovanie záznamov poistených osôb.
+This repository contains an implementation of an information system for managing insured individuals. The system is written in Python and allows basic operations such as adding, searching, modifying, and removing records of insured individuals.
 
-## Štruktúra kódu
+## Code Structure
 
-Kód je rozdelený do niekoľkých tried, ktoré sú popísané nižšie:
+The code is divided into several classes, which are described below:
 
-1. **UserDatabase**: Trieda na správu databázy poistených osôb.
-2. **UserManagement**: Trieda na správu operácií s poistencami, ako je vytváranie nových záznamov.
-3. **ManageInsured**: Trieda na vyhľadávanie, úpravu a odstraňovanie existujúcich záznamov poistených osôb.
-4. **Insured**: Trieda reprezentujúca jednotlivého poisteného.
+1. **UserDatabase**: Class for managing the database of insured individuals.
+2. **UserManagement**: Class for managing operations with insured individuals, such as creating new records.
+3. **ManageInsured**: Class for searching, editing, and removing existing records of insured individuals.
+4. **Insured**: Class representing individual insured persons.
 
-## Funkcie programu
+## Program Functions
 
-- **Pridanie nového poisteného**: Umožňuje vytvorenie nového záznamu poisteného vrátane kontroly správnosti vstupných údajov.
-- **Zoznam všetkých poistencov**: Zobrazuje zoznam všetkých poistencov v databáze.
-- **Vyhľadávanie poistených osôb**: Umýšľa používateľovi vyhľadať poistenú osobu podľa kritérií.
-- **Úprava údajov poistených osôb**: Umožňuje úpravu existujúcich záznamov poistených osôb.
-- **Odstránenie poistených osôb**: Umožňuje odstránenie existujúcich záznamov poistených osôb z databázy.
+- **Add New Insured**: Allows the creation of a new record for an insured individual, including validation of input data.
+- **List All Insured**: Displays a list of all insured individuals in the database.
+- **Search Insured Individuals**: Enables users to search for insured individuals based on criteria.
+- **Edit Insured Data**: Allows the modification of existing records of insured individuals.
+- **Remove Insured Individuals**: Enables the removal of existing records of insured individuals from the database.
 
-## Spustenie programu
+## Running the Program
 
-Pre spustenie programu vykonajte súbor `menu.py`. Po spustení sa zobrazí hlavné menu, kde môžete vybrať požadovanú akciu zadanie čísla od 1 do 6.
+To run the program, execute the file `menu.py`. After running, the main menu will be displayed, where you can select the desired action by entering a number from 1 to 6.
 
-## Licencia
+## License
 
-Tento projekt je licencovaný pod [MIT licenciou](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
